@@ -1,0 +1,28 @@
+/**
+*
+* Main Stylesheet For Full Concept Micro
+*
+**/
+
+@import '_normalize';
+
+// Icons - Leave it here to otherfiles can extend if needed
+
+//media queries
+@import '_modules/_media-queries.scss';
+
+// fonts
+@import '_components/_colors.scss';
+@import '_components/_fonts.scss';
+
+
+// pages - includes
+@import '_includes/_header.scss';
+@import '_pages/_main.scss';
+@import '_includes/_footer.scss';
+
+
+
+
+
+
