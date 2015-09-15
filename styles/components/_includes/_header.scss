@@ -1,11 +1,11 @@
 /*body{padding-top:0!important;}*/
 
-header{background-color:$main-blue; position:fixed; width:100%; top:0;
+header{background-color:$main-blue; position:fixed; width:100%; top:0; z-index:1;
 	.logo{float:left; width:30%}
 	nav{float:right; width:60%; position:relative!important;
 		ul{list-style-type:none; padding:0; margin:0;
 			li{float:left; margin:0 2%; padding:0 ; display:block; 
-				a{font-family: 'merriweatherlight'; color:#fff; text-decoration:none; display:block; padding:15px 0 0 0; border-top:2px solid transparent; &:hover,&.active{border-top:2px solid $main-green;}
+				a{font-family: 'merriweatherlight'; font-size: 13px; color:#fff; text-decoration:none; display:block; padding:15px 0 0 0; border-top:2px solid transparent; &:hover,&.active{border-top:2px solid $main-green;}
 				}
 			}
 		}
