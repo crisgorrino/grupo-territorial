@@ -475,12 +475,32 @@ header {
 .center {
   text-align: center; }
 
+/*--triangles--*/
+.arrow-down-green {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #00b74f;
+  margin: 0 auto; }
+
+.arrow-down-blue {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #1f2a44;
+  margin: 0 auto; }
+
+.divider {
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+  width: 100%;
+  padding: 2px 0; }
+
 .inner {
   width: 80%;
   margin: 0 auto; }
-
-.section {
-  height: 300px; }
 
 .slider {
   width: 100%;
@@ -488,5 +508,54 @@ header {
   .slider img {
     display: block;
     width: 100%; }
+
+.quienes-somos .head {
+  width: 100%;
+  background-color: #00b74f; }
+  .quienes-somos .head h3 {
+    margin: 0;
+    width: 34%;
+    color: #fff;
+    font-family: 'merriweatheritalic';
+    margin: 0 auto;
+    font-weight: normal;
+    font-size: 15px;
+    padding: 10px 0; }
+.quienes-somos .inner {
+  padding: 50px 0; }
+  .quienes-somos .inner .content {
+    width: 48%; }
+    .quienes-somos .inner .content img {
+      display: block;
+      width: 70%;
+      margin-bottom: 10px; }
+  .quienes-somos .inner .content.right {
+    border-top: 1px solid #00b74f;
+    border-bottom: 1px solid #00b74f;
+    padding: 40px 0; }
+    .quienes-somos .inner .content.right img {
+      float: left;
+      width: auto; }
+    .quienes-somos .inner .content.right .info {
+      float: right;
+      width: 80%;
+      margin-top: 25px; }
+      .quienes-somos .inner .content.right .info h5 {
+        color: #00b74f; }
+
+.oportunidades .head {
+  width: 100%;
+  background-color: #1f2a44; }
+  .oportunidades .head h3 {
+    margin: 0;
+    width: 34%;
+    color: #fff;
+    font-family: 'merriweatheritalic';
+    margin: 0 auto;
+    font-weight: normal;
+    font-size: 15px;
+    padding: 10px 0; }
+    .oportunidades .head h3 span {
+      color: #00b74f; }
 
 /*# sourceMappingURL=main.css.map */

@@ -3,8 +3,60 @@
 .both{clear:both;}
 .center{text-align:center;}
 
+/*--triangles--*/
+.arrow-down-green {
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;	
+	border-top: 20px solid $main-green;
+	margin:0 auto;
+}
+
+.arrow-down-blue {
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;	
+	border-top: 20px solid $main-blue;
+	margin:0 auto;
+}
+
+
+.divider{border-top:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3; width:100%; padding:2px 0;}
+
 .inner{width:80%; margin:0 auto;}
-.section{height:300px;}
+.section{}
 .slider{width:100%; margin:25px 0 0 0;
 	img{display: block; width:100%;}
+}
+
+.quienes-somos{
+	.head{width:100%; background-color:$main-green;
+		h3{margin:0; width:34%; color:#fff; font-family: 'merriweatheritalic'; margin: 0 auto; font-weight:normal; font-size:15px; padding:10px 0;}
+		
+	}
+	
+	.inner{ padding:50px 0;
+		.content{width:48%;
+			img{display:block; width:70%; margin-bottom:10px;}
+		}
+		.content.right{border-top:1px solid $main-green; border-bottom:1px solid $main-green; padding:40px 0;
+			img{float:left; width:auto;}
+			.info{float:right; width:80%; margin-top:25px;
+				h2{}
+				p{}
+				h5{color:$main-green;}
+			}
+		}
+	}
+}
+
+.oportunidades{
+	.head{width:100%; background-color:$main-blue;
+		h3{margin:0; width:34%; color:#fff; font-family: 'merriweatheritalic'; margin: 0 auto; font-weight:normal; font-size:15px; padding:10px 0;
+			span{color:$main-green;}
+		}
+		
+	}
 }
