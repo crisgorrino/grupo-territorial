@@ -543,6 +543,28 @@ header {
       .quienes-somos .inner .content.right .info h5 {
         color: #00b74f; }
 
+.perfil .inner {
+  padding: 50px 0; }
+  .perfil .inner .content {
+    width: 48%; }
+    .perfil .inner .content img {
+      display: block;
+      width: 70%;
+      margin-bottom: 10px; }
+  .perfil .inner .content.left {
+    border-top: 1px solid #00b74f;
+    border-bottom: 1px solid #00b74f;
+    padding: 40px 0; }
+    .perfil .inner .content.left img {
+      float: left;
+      width: auto; }
+    .perfil .inner .content.left .info {
+      float: right;
+      width: 80%;
+      margin-top: 25px; }
+      .perfil .inner .content.left .info h5 {
+        color: #00b74f; }
+
 .oportunidades .head {
   width: 100%;
   background-color: #1f2a44; }
@@ -557,5 +579,69 @@ header {
     padding: 10px 0; }
     .oportunidades .head h3 span {
       color: #00b74f; }
+.oportunidades .inner {
+  padding: 50px 0; }
+  .oportunidades .inner .content {
+    width: 48%; }
+    .oportunidades .inner .content img {
+      display: block;
+      width: 70%;
+      margin-bottom: 10px; }
+  .oportunidades .inner .content.right {
+    border-top: 1px solid #00b74f;
+    border-bottom: 1px solid #00b74f;
+    padding: 40px 0; }
+    .oportunidades .inner .content.right img {
+      float: left;
+      width: auto; }
+    .oportunidades .inner .content.right .info {
+      float: right;
+      width: 80%;
+      margin-top: 25px; }
+      .oportunidades .inner .content.right .info h5 {
+        color: #00b74f; }
+
+.bridge-img {
+  display: block;
+  width: 100%;
+  clear: both;
+  margin: 20px 0;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+  padding: 5px 0; }
+
+.asociados {
+  margin-bottom: 50px; }
+  .asociados .inner {
+    border-top: 1px solid #00b74f;
+    border-bottom: 1px solid #00b74f;
+    padding: 40px 0; }
+    .asociados .inner .content.right {
+      width: 85%; }
+      .asociados .inner .content.right .container {
+        border-top: 1px solid #00b74f;
+        padding: 10px 0; }
+        .asociados .inner .content.right .container button {
+          outline: none;
+          border: none;
+          background-color: #f9f9f9;
+          display: inline-block;
+          width: 30%;
+          padding: 3% 0%; }
+          .asociados .inner .content.right .container button:nth-child(3) {
+            margin: 0 4%; }
+          .asociados .inner .content.right .container button a {
+            text-decoration: none;
+            color: #00b74f; }
+            .asociados .inner .content.right .container button a:hover {
+              color: #1f2a44; }
+
+.beneficios {
+  background-color: #f6f6f6;
+  /*border-top:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3;*/ }
+  .beneficios .inner {
+    padding: 50px 0; }
+    .beneficios .inner .content.right {
+      width: 85%; }
 
 /*# sourceMappingURL=main.css.map */

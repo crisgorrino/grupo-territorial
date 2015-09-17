@@ -52,11 +52,65 @@
 	}
 }
 
+
+.perfil{
+	.inner{ padding:50px 0;
+		.content{width:48%;
+			img{display:block; width:70%; margin-bottom:10px;}
+		}
+		.content.left{border-top:1px solid $main-green; border-bottom:1px solid $main-green; padding:40px 0;
+			img{float:left; width:auto;}
+			.info{float:right; width:80%; margin-top:25px;
+				h2{}
+				p{}
+				h5{color:$main-green;}
+			}
+		}
+	}
+}
+
 .oportunidades{
 	.head{width:100%; background-color:$main-blue;
 		h3{margin:0; width:34%; color:#fff; font-family: 'merriweatheritalic'; margin: 0 auto; font-weight:normal; font-size:15px; padding:10px 0;
 			span{color:$main-green;}
 		}
-		
+	}
+	
+	.inner{ padding:50px 0;
+		.content{width:48%;
+			img{display:block; width:70%; margin-bottom:10px;}
+		}
+		.content.right{border-top:1px solid $main-green; border-bottom:1px solid $main-green; padding:40px 0;
+			img{float:left; width:auto;}
+			.info{float:right; width:80%; margin-top:25px;
+				h2{}
+				p{}
+				h5{color:$main-green;}
+			}
+		}
+	}
+}
+
+.bridge-img{display:block; width:100%; clear:both; margin:20px 0; border-top:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3; padding:5px 0;}
+
+.asociados{margin-bottom: 50px;
+	.inner{border-top:1px solid $main-green; border-bottom:1px solid $main-green; padding:40px 0;
+		.content{}
+		.content.right{width:85%;
+			h2{}
+			.container{border-top:1px solid $main-green;  padding:10px 0;
+				button{outline:none;  border:none; background-color:#f9f9f9; display: inline-block; width:30%; padding:3% 0%; &:nth-child(3){margin:0 4%;}
+					a{text-decoration:none; color:$main-green; &:hover{color:$main-blue;}}
+				}
+			}		
+		}
+	}
+}
+
+.beneficios{background-color:#f6f6f6; /*border-top:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3;*/
+	.inner{ padding:50px 0;
+		.content.right{width:85%;
+			h2{}		
+		}
 	}
 }
