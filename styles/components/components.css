@@ -509,6 +509,17 @@ header {
     display: block;
     width: 100%; }
 
+/*--headers--*/
+/*--map--*/
+.map {
+  border: 0;
+  width: 100%;
+  display: block;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+  padding: 10px 0;
+  margin: 2px 0; }
+
 .quienes-somos .head {
   width: 100%;
   background-color: #00b74f; }
@@ -642,4 +653,23 @@ header {
   .beneficios .inner {
     padding: 50px 0; }
     .beneficios .inner .content.right {
+      width: 85%; }
+      .beneficios .inner .content.right ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0; }
+        .beneficios .inner .content.right ul li {
+          display: inline-block;
+          min-width: 32%;
+          margin: 5px 0; }
+          .beneficios .inner .content.right ul li img {
+            display: inline-block;
+            vertical-align: middle; }
+
+.contacto {
+  background-color: #f6f6f6;
+  /*border-top:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3;*/ }
+  .contacto .inner {
+    padding: 50px 0; }
+    .contacto .inner .content.right {
       width: 85%; }

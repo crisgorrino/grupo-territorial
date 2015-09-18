@@ -27,9 +27,13 @@
 
 .inner{width:80%; margin:0 auto;}
 .section{}
-.slider{width:100%; margin:25px 0 0 0;
-	img{display: block; width:100%;}
-}
+.slider{width:100%; margin:25px 0 0 0; img{display: block; width:100%;} }
+
+/*--headers--*/
+
+/*--map--*/
+.map{border:0; width:100%; display:block; border-top:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3; padding:10px 0; margin:2px 0;}
+
 
 .quienes-somos{
 	.head{width:100%; background-color:$main-green;
@@ -110,7 +114,21 @@
 .beneficios{background-color:#f6f6f6; /*border-top:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3;*/
 	.inner{ padding:50px 0;
 		.content.right{width:85%;
-			h2{}		
+			h2{}
+			ul{list-style-type:none; margin:0; padding:0;
+				li{display:inline-block; min-width:32%; margin:5px 0;
+					img{display: inline-block; vertical-align:middle; }
+				}
+			}		
+		}
+	}
+}
+
+
+.contacto{background-color:#f6f6f6; /*border-top:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3;*/
+	.inner{ padding:50px 0;
+		.content.right{width:85%;
+			h2{}	
 		}
 	}
 }
