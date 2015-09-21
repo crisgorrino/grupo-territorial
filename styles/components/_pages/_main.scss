@@ -29,7 +29,13 @@
 .section{}
 .slider{width:100%; margin:25px 0 0 0; img{display: block; width:100%;} }
 
-/*--headers--*/
+/*--headers fonts--*/
+h2{font-family: 'lorabold'; color:$main-blue;}
+h4{font-family: 'lorabold';  color:$main-green; font-size:16px; margin:0; letter-spacing:1px;}
+h5{font-family: 'lorabold_italic'; color:$main-green; font-size:18px;}
+
+/*--body text fonts--*/
+p{font-family: 'open_sansregular'; line-height:1.8em; font-size:14px; color:#5e5d5d;}
 
 /*--map--*/
 .map{border:0; width:100%; display:block; border-top:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3; padding:10px 0; margin:2px 0;}
@@ -45,7 +51,7 @@
 		.content{width:48%;
 			img{display:block; width:70%; margin-bottom:10px;}
 		}
-		.content.right{border-top:1px solid $main-green; border-bottom:1px solid $main-green; padding:40px 0;
+		.content.right{border-top:1px solid $main-green; border-bottom:1px solid $main-green; padding:5px 0;
 			img{float:left; width:auto;}
 			.info{float:right; width:80%; margin-top:25px;
 				h2{}
@@ -62,7 +68,7 @@
 		.content{width:48%;
 			img{display:block; width:70%; margin-bottom:10px;}
 		}
-		.content.left{border-top:1px solid $main-green; border-bottom:1px solid $main-green; padding:40px 0;
+		.content.left{border-top:1px solid $main-green; border-bottom:1px solid $main-green; padding:5px 0;
 			img{float:left; width:auto;}
 			.info{float:right; width:80%; margin-top:25px;
 				h2{}
@@ -84,7 +90,7 @@
 		.content{width:48%;
 			img{display:block; width:70%; margin-bottom:10px;}
 		}
-		.content.right{border-top:1px solid $main-green; border-bottom:1px solid $main-green; padding:40px 0;
+		.content.right{border-top:1px solid $main-green; border-bottom:1px solid $main-green; padding:5px 0;
 			img{float:left; width:auto;}
 			.info{float:right; width:80%; margin-top:25px;
 				h2{}
@@ -104,7 +110,7 @@
 			h2{}
 			.container{border-top:1px solid $main-green;  padding:10px 0;
 				button{outline:none;  border:none; background-color:#f9f9f9; display: inline-block; width:30%; padding:3% 0%; &:nth-child(3){margin:0 4%;}
-					a{text-decoration:none; color:$main-green; &:hover{color:$main-blue;}}
+					a{font-family: 'open_sanssemibold'; text-decoration:none; color:$main-green; &:hover{color:$main-blue;}}
 				}
 			}		
 		}
@@ -116,7 +122,7 @@
 		.content.right{width:85%;
 			h2{}
 			ul{list-style-type:none; margin:0; padding:0;
-				li{display:inline-block; min-width:32%; margin:5px 0;
+				li{display:inline-block; min-width:32%; margin:5px 0; color:#1f2a44; font-family: 'open_sansbold'; font-size:14px;
 					img{display: inline-block; vertical-align:middle; }
 				}
 			}		
@@ -125,10 +131,34 @@
 }
 
 
-.contacto{background-color:#f6f6f6; /*border-top:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3;*/
+.contacto{background-color:#fff; /*border-top:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3;*/
 	.inner{ padding:50px 0;
-		.content.right{width:85%;
-			h2{}	
+		.cont-left{width:60%; float:left;
+			h2{}
+			.contact-form{display: block; padding:10px 0; border-top:1px solid #e3e3e3; 
+				input[type="text"]{width:30%; padding:1%; display: inline-block; margin:5px 0; border:1px solid #e1e1e1;}
+				textarea{width:97%; border:1px solid #e1e1e1; height:200px; margin:5px 0;}
+				input[type="submit"]{display:block; border:0; background-color:$main-green; color:$main-blue; width:98%;}
+			}	
+		}
+		
+		.cont-right{width:37%; float:right; border-top:1px solid #e3e3e3; 
+			span{display:block; font-family: 'open_sansregular'; color:#5e5d5d; line-height:1.8em; font-size:12px;}
+			
+			span.first{border-bottom:1px solid #e3e3e3; padding-bottom:10px;}
+			
+			span.second{padding:10px 0; border-bottom:1px solid #e3e3e3; 
+				a{text-decoration:none; color:#5e5d5d; &:hover{color:$main-green;}}
+			}
+			img{ bottom:0; display:block; clear:both; margin-top: 25px;} 
 		}
 	}
 }
+
+
+/*--mail confirmation page page ---*/
+.mail{
+	.inner{text-align: center; 
+		h1{margin-top:20%; font-family: 'lorabold_italic'; color:$main-green;}
+	}
+}	

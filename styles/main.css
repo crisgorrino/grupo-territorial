@@ -509,7 +509,30 @@ header {
     display: block;
     width: 100%; }
 
-/*--headers--*/
+/*--headers fonts--*/
+h2 {
+  font-family: 'lorabold';
+  color: #1f2a44; }
+
+h4 {
+  font-family: 'lorabold';
+  color: #00b74f;
+  font-size: 16px;
+  margin: 0;
+  letter-spacing: 1px; }
+
+h5 {
+  font-family: 'lorabold_italic';
+  color: #00b74f;
+  font-size: 18px; }
+
+/*--body text fonts--*/
+p {
+  font-family: 'open_sansregular';
+  line-height: 1.8em;
+  font-size: 14px;
+  color: #5e5d5d; }
+
 /*--map--*/
 .map {
   border: 0;
@@ -543,7 +566,7 @@ header {
   .quienes-somos .inner .content.right {
     border-top: 1px solid #00b74f;
     border-bottom: 1px solid #00b74f;
-    padding: 40px 0; }
+    padding: 5px 0; }
     .quienes-somos .inner .content.right img {
       float: left;
       width: auto; }
@@ -565,7 +588,7 @@ header {
   .perfil .inner .content.left {
     border-top: 1px solid #00b74f;
     border-bottom: 1px solid #00b74f;
-    padding: 40px 0; }
+    padding: 5px 0; }
     .perfil .inner .content.left img {
       float: left;
       width: auto; }
@@ -601,7 +624,7 @@ header {
   .oportunidades .inner .content.right {
     border-top: 1px solid #00b74f;
     border-bottom: 1px solid #00b74f;
-    padding: 40px 0; }
+    padding: 5px 0; }
     .oportunidades .inner .content.right img {
       float: left;
       width: auto; }
@@ -642,6 +665,7 @@ header {
           .asociados .inner .content.right .container button:nth-child(3) {
             margin: 0 4%; }
           .asociados .inner .content.right .container button a {
+            font-family: 'open_sanssemibold';
             text-decoration: none;
             color: #00b74f; }
             .asociados .inner .content.right .container button a:hover {
@@ -661,17 +685,76 @@ header {
         .beneficios .inner .content.right ul li {
           display: inline-block;
           min-width: 32%;
-          margin: 5px 0; }
+          margin: 5px 0;
+          color: #1f2a44;
+          font-family: 'open_sansbold';
+          font-size: 14px; }
           .beneficios .inner .content.right ul li img {
             display: inline-block;
             vertical-align: middle; }
 
 .contacto {
-  background-color: #f6f6f6;
+  background-color: #fff;
   /*border-top:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3;*/ }
   .contacto .inner {
     padding: 50px 0; }
-    .contacto .inner .content.right {
-      width: 85%; }
+    .contacto .inner .cont-left {
+      width: 60%;
+      float: left; }
+      .contacto .inner .cont-left .contact-form {
+        display: block;
+        padding: 10px 0;
+        border-top: 1px solid #e3e3e3; }
+        .contacto .inner .cont-left .contact-form input[type="text"] {
+          width: 30%;
+          padding: 1%;
+          display: inline-block;
+          margin: 5px 0;
+          border: 1px solid #e1e1e1; }
+        .contacto .inner .cont-left .contact-form textarea {
+          width: 97%;
+          border: 1px solid #e1e1e1;
+          height: 200px;
+          margin: 5px 0; }
+        .contacto .inner .cont-left .contact-form input[type="submit"] {
+          display: block;
+          border: 0;
+          background-color: #00b74f;
+          color: #1f2a44;
+          width: 98%; }
+    .contacto .inner .cont-right {
+      width: 37%;
+      float: right;
+      border-top: 1px solid #e3e3e3; }
+      .contacto .inner .cont-right span {
+        display: block;
+        font-family: 'open_sansregular';
+        color: #5e5d5d;
+        line-height: 1.8em;
+        font-size: 12px; }
+      .contacto .inner .cont-right span.first {
+        border-bottom: 1px solid #e3e3e3;
+        padding-bottom: 10px; }
+      .contacto .inner .cont-right span.second {
+        padding: 10px 0;
+        border-bottom: 1px solid #e3e3e3; }
+        .contacto .inner .cont-right span.second a {
+          text-decoration: none;
+          color: #5e5d5d; }
+          .contacto .inner .cont-right span.second a:hover {
+            color: #00b74f; }
+      .contacto .inner .cont-right img {
+        bottom: 0;
+        display: block;
+        clear: both;
+        margin-top: 25px; }
+
+/*--mail confirmation page page ---*/
+.mail .inner {
+  text-align: center; }
+  .mail .inner h1 {
+    margin-top: 20%;
+    font-family: 'lorabold_italic';
+    color: #00b74f; }
 
 /*# sourceMappingURL=main.css.map */
