@@ -41,9 +41,11 @@
 ?>				
 		<!--main content-->
 		<footer>
-			<section>
-				
+			<section class="inner center">
+				<img src="img/footer-logo.png" alt="footer">
+				<p>T. (33) 2001 0965 / <a href="http://www.grupoterritorial.mx">www.grupoterritorial.mx</a></p>
+				<img src="img/footer-icon.png" alt="footer icon">
 			</section>
 		</footer>
-    </body>
+
 </html>
